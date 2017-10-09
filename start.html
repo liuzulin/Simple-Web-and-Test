@@ -116,14 +116,169 @@
                 </div>
             </div>
         </div>
-        <p><del>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </del><ins>Nullam id dolor id nibh ultricies vehicula.</ins></p><p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor fringilla.</p><p><mark>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</mark></p>
+        <p><del>Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </del><ins>Nullam id dolor id nibh ultricies vehicula.</ins></p><p class="lead">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. <strong>Donec ullamcorper nulla non metus auctor fringilla.</strong></p><p class="text-uppercase"><mark>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</mark></p>
         <h1>h1. h1 heading <small>second heading</small></h1>
         <h2>h2. h2 heading</h2>
         <h3>h3. h3 heading</h3>
         <h4>h4. h4 heading <small>second heading</small></h4>
         <h5>h5. h5 heading</h5>
         <h6>h6. h6 heading</h6>
+        <abbr title="attribute">attr</abbr><br>
+        <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>
         
+        <address>
+            <strong>Dexter Park</strong><br>
+            175 Freeman Street,Apt 520<br>
+            Boston,MA 02446<br>
+            <abbr title="Phone">P:</abbr> (617) 8**-7843
+        </address>
+        
+        <address>
+            <strong>Zulin Liu</strong><br>
+            <a href="mailto:#">liu****@bu.edu</a>
+        </address>
+        
+        <blockquote class="text-right">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+        </blockquote>
+        
+        <ul class="list-styled">
+            <li>3111111111</li>
+            <li>3222222222</li>
+            <ul>
+                <li>3333333333</li>
+                <li>3444444444</li>
+                <ol>
+                    <li>355555555</li>
+                    <li>366666666</li>
+                </ol>
+            </ul>
+        </ul>
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <strong>testing</strong>
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <dl class="dl-horizontal">
+                        <dt>First</dt><dd>This is a test website</dd>
+                        <dt>Second</dt><dd>I will make my own resume website next</dd>
+                        <dt>Third</dt><dd>Web is fun</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        
+        To copy my information, type <kbd><kbd>Command</kbd> + <kbd>c</kbd></kbd><br>
+        To paste, press <kbd><kbd>Command</kbd> + <kbd>v</kbd></kbd>
+        
+        <table class="table table-hover">
+            <tr class="active">
+                <td>#</td>
+                <td>X</td>
+                <td>Y</td>
+                <td>Z</td>
+                <td>M</td></tr>
+            <tr class="success">
+                <td>1</td>
+                <td>one</td>
+                <td>one</td>
+                <td>...</td>
+                <td>...</td></tr>
+            <tr class="warning">
+                <td>2</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td></tr>
+            <tr class="danger">
+                <td>3</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td></tr>
+            <tr class="info">
+                <td>4</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td>
+                <td>...</td></tr>
+        </table>
+        
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Input your Password">
+            <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" class="form-control" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> Check me out
+                </label>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        
+        <textarea class="form-control" rows="3"></textarea>
+        
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" value="">
+                    Option one is this and that&mdash;be sure to include why it's great
+                    </label>
+        </div>
+        <div class="checkbox disabled">
+            <label>
+                <input type="checkbox" value="" disabled>
+                    Option two is disabled
+                    </label>
+        </div>
+        
+        <div class="radio">
+            <label class="radio-inline">
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+                    Option one is this
+                    </label>
+        </div>
+        <div class="radio">
+            <label class="radio-inline">
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+                    Option two can be something else
+                    </label>
+        </div>
+        <div class="radio disabled">
+            <label class="radio-inline">
+                <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                    Option three is disabled
+                    </label>
+        </div>
+        
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                    <p class="form-control-static">email@example.com</p>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                        </div>
+            </div>
+        </form>
+        
+
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
