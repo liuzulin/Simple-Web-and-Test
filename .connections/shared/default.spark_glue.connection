@@ -2,17 +2,17 @@
   "name": "default.spark_glue",
   "authorizationMode": "PROJECT",
   "description": "This is a default SPARK_GLUE connection.",
-  "domainIdentifier": "dzd_5ze55hc0hcuwx3",
-  "environmentIdentifier": "4seq8g3lmecduv",
+  "domainIdentifier": "dzd_6woc2z589ict2f",
+  "environmentIdentifier": "cvapltkv7znyg7",
   "location": {
     "awsRegion": "us-east-1",
     "awsAccountId": "381492120247"
   },
-  "projectIdentifier": "avt74826881wdj",
+  "projectIdentifier": "b8307nccvgen8n",
   "provisioningType": "MANAGED",
   "sparkGlueProperties": {
     "glueConnection": {
-      "name": "maxdome-glue-network-connection-avt74826881wdj-dev"
+      "name": "maxdome-glue-network-connection-b8307nccvgen8n-dev"
     },
     "sessionConfigs": {
       "glue_version": "4.0",
