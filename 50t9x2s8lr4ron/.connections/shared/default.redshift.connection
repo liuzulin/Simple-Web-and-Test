@@ -1,0 +1,22 @@
+{
+  "name": "default.redshift",
+  "domainIdentifier": "dzd_cfxkp8i81y19k7",
+  "projectIdentifier": "50t9x2s8lr4ron",
+  "environmentIdentifier": "cry7cvq7k4l9d3",
+  "provisioningType": "MANAGED",
+  "type": "REDSHIFT",
+  "authorizationMode": "PROJECT",
+  "description": "Default Redshift-S connection",
+  "redshiftAuthType": "FEDERATED",
+  "useExistingAwsResource": false,
+  "location": {
+    "awsRegion": "us-east-1",
+    "awsAccount": "381492120247"
+  },
+  "jdbcConnection": {
+    "engine": "redshift",
+    "host": "maxdome-redshift-workgroup-cry7cvq7k4l9d3.381492120247.us-east-1.redshift-serverless.amazonaws.com",
+    "dbname": "dev",
+    "port": 5439
+  }
+}
